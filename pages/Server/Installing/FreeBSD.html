@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Installing and Preparing FreeBSD Environment &mdash; Metin1 Research  documentation</title>
+      <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/custom.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/algolia.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/css/rtd_dark.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/js/external-hyperlinks.js"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Installing Libraries" href="Libraries.html" />
+    <link rel="prev" title="Installing" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../index.html" class="icon icon-home"> Metin1 Research
+            <img src="../../../_static/metin_logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Metin1</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Metin1 Files Research</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Server Information</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">Installing</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Installing and Preparing FreeBSD Environment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Libraries.html">Installing Libraries</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Settings.html">Environment Settings</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Tree/index.html">Directory Trees</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Tree/Account.html">Account Server Tree</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Tree/Directories.html">Directories Tree Information</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Tree/Game.html">Channels Tree</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../Formats/index.html">Formats</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Formats/GLD.html">Guild Format (.gld)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Formats/ITM.html">Item File Format (.item)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#on-progress-may-change">On progress (may change)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../index.html#security-notice">SECURITY NOTICE</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Test</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../Test/index.html">Test</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Metin1 Research</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../index.html">Metin1 Files Research</a> &raquo;</li>
+          <li><a href="../index.html">Server Information</a> &raquo;</li>
+          <li><a href="index.html">Installing</a> &raquo;</li>
+      <li>Installing and Preparing FreeBSD Environment</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/OriDevTeam/metin1-research/blob/master/docs/pages/Server/Installing/FreeBSD.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="installing-and-preparing-freebsd-environment">
+<h1>Installing and Preparing FreeBSD Environment<a class="headerlink" href="#installing-and-preparing-freebsd-environment" title="Permalink to this headline">¶</a></h1>
+<section id="images">
+<h2>Images<a class="headerlink" href="#images" title="Permalink to this headline">¶</a></h2>
+<p>You can find the installation disc images at
+http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/i386/ISO-IMAGES/5.5/</p>
+</section>
+<section id="steps">
+<h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
+<section id="configure-network-interface">
+<h3>Configure Network Interface<a class="headerlink" href="#configure-network-interface" title="Permalink to this headline">¶</a></h3>
+<p>Enter the system installation menu by typing <code class="docutils literal notranslate"><span class="pre">sysinstall</span></code>,
+pick the <strong>Configuration</strong> option then <strong>Networking</strong> and <strong>Interfaces</strong>,
+pick the desired adapter (em0, em1 and so on) and configure to match your settings</p>
+</section>
+<section id="enable-sshd">
+<h3>Enable SSHD<a class="headerlink" href="#enable-sshd" title="Permalink to this headline">¶</a></h3>
+<p>Edit the file /etc/rc.conf and enable sshd by adding/modifying to:
+<code class="docutils literal notranslate"><span class="pre">sshd_enable=&quot;YES&quot;</span></code></p>
+</section>
+<section id="enable-ssh-root-login">
+<h3>Enable SSH Root Login<a class="headerlink" href="#enable-ssh-root-login" title="Permalink to this headline">¶</a></h3>
+<p>Edit the file /etc/ssh/sshd_config and enable root login by modifying to:
+<code class="docutils literal notranslate"><span class="pre">PermitRootLogin</span> <span class="pre">yes</span></code></p>
+</section>
+<section id="set-a-password">
+<h3>Set a password<a class="headerlink" href="#set-a-password" title="Permalink to this headline">¶</a></h3>
+<p>Change the root password by typing <code class="docutils literal notranslate"><span class="pre">passwd</span></code> and type a password</p>
+<p><strong>Why?</strong>: Connecting trough SFTP requires that the user you are trying to log in on
+has a password, otherwise it will wait a long time and deny authentication</p>
+</section>
+<section id="notes">
+<h3>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h3>
+<p><strong>Note 1</strong>: Restarting services like <code class="docutils literal notranslate"><span class="pre">sshd</span></code> or network routing/resolving might
+not be enough, reboot after configuration to ensure taking effect</p>
+<p><strong>Note 2</strong>: Connecting trough SFTP might take some time, the reason
+is unknown, but is known that restarting networking by executing
+<code class="docutils literal notranslate"><span class="pre">/etc/rc.d/netif</span> <span class="pre">restart</span></code> in greater FreeBSD version temporarily fixes
+the issue for the lifetime of the machine session</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Installing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Libraries.html" class="btn btn-neutral float-right" title="Installing Libraries" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OriDevTeam.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

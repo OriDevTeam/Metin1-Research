@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Installing and Preparing FreeBSD Environment &mdash; Metin1 Research  documentation</title>
       <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
@@ -23,7 +22,7 @@
     <script src="../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Installing Libraries" href="Libraries.html" />
+    <link rel="next" title="Environment Settings" href="Settings.html" />
     <link rel="prev" title="Installing" href="index.html" /> 
 </head>
 
@@ -45,35 +44,45 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Metin1</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">Metin1 Files Research</a><ul class="current">
-<li class="toctree-l2 current"><a class="reference internal" href="../index.html">Server Information</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Installing</a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Installing and Preparing FreeBSD Environment</a></li>
-<li class="toctree-l4"><a class="reference internal" href="Libraries.html">Installing Libraries</a></li>
-<li class="toctree-l4"><a class="reference internal" href="Settings.html">Environment Settings</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Server</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../Content/index.html">Content</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Content/Cores/index.html">Cores</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Content/Cores/Account.html">Account Server Core Tree</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Content/Cores/Game.html">Channels Tree</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../Tree/index.html">Directory Trees</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../Tree/Account.html">Account Server Tree</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../Tree/Directories.html">Directories Tree Information</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../Tree/Game.html">Channels Tree</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Content/Directories/index.html">Directories</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Content/Directories/Item.html">Item data (item/)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Content/Directories/Shop.html">Shop data (shop/)</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../Formats/index.html">Formats</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="../Formats/GLD.html">Guild Format (.gld)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../Formats/ITM.html">Item File Format (.item)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Content/Formats/index.html">Formats</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../Content/Formats/GLD.html">Guild Format (.gld)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../Content/Formats/ITM.html">Item File Format (.item)</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../index.html#on-progress-may-change">On progress (may change)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Installing</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Installing and Preparing FreeBSD Environment</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#images">Images</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#steps">Steps</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../index.html#security-notice">SECURITY NOTICE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Settings.html">Environment Settings</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Settings.html#localization-optional">Localization (optional)</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Test</span></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html#on-progress-may-change">On progress (may change)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Client/index.html">Client</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../Test/index.html">Test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../About/index.html">About</a></li>
 </ul>
 
         </div>
@@ -90,8 +99,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="../../index.html">Metin1 Files Research</a> &raquo;</li>
-          <li><a href="../index.html">Server Information</a> &raquo;</li>
+          <li><a href="../index.html">Server</a> &raquo;</li>
           <li><a href="index.html">Installing</a> &raquo;</li>
       <li>Installing and Preparing FreeBSD Environment</li>
       <li class="wy-breadcrumbs-aside">
@@ -103,38 +111,38 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="installing-and-preparing-freebsd-environment">
+  <div class="section" id="installing-and-preparing-freebsd-environment">
 <h1>Installing and Preparing FreeBSD Environment<a class="headerlink" href="#installing-and-preparing-freebsd-environment" title="Permalink to this headline">¶</a></h1>
-<section id="images">
+<div class="section" id="images">
 <h2>Images<a class="headerlink" href="#images" title="Permalink to this headline">¶</a></h2>
 <p>You can find the installation disc images at
 http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/i386/ISO-IMAGES/5.5/</p>
-</section>
-<section id="steps">
+</div>
+<div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
-<section id="configure-network-interface">
+<div class="section" id="configure-network-interface">
 <h3>Configure Network Interface<a class="headerlink" href="#configure-network-interface" title="Permalink to this headline">¶</a></h3>
 <p>Enter the system installation menu by typing <code class="docutils literal notranslate"><span class="pre">sysinstall</span></code>,
 pick the <strong>Configuration</strong> option then <strong>Networking</strong> and <strong>Interfaces</strong>,
 pick the desired adapter (em0, em1 and so on) and configure to match your settings</p>
-</section>
-<section id="enable-sshd">
+</div>
+<div class="section" id="enable-sshd">
 <h3>Enable SSHD<a class="headerlink" href="#enable-sshd" title="Permalink to this headline">¶</a></h3>
 <p>Edit the file /etc/rc.conf and enable sshd by adding/modifying to:
 <code class="docutils literal notranslate"><span class="pre">sshd_enable=&quot;YES&quot;</span></code></p>
-</section>
-<section id="enable-ssh-root-login">
+</div>
+<div class="section" id="enable-ssh-root-login">
 <h3>Enable SSH Root Login<a class="headerlink" href="#enable-ssh-root-login" title="Permalink to this headline">¶</a></h3>
 <p>Edit the file /etc/ssh/sshd_config and enable root login by modifying to:
 <code class="docutils literal notranslate"><span class="pre">PermitRootLogin</span> <span class="pre">yes</span></code></p>
-</section>
-<section id="set-a-password">
+</div>
+<div class="section" id="set-a-password">
 <h3>Set a password<a class="headerlink" href="#set-a-password" title="Permalink to this headline">¶</a></h3>
 <p>Change the root password by typing <code class="docutils literal notranslate"><span class="pre">passwd</span></code> and type a password</p>
 <p><strong>Why?</strong>: Connecting trough SFTP requires that the user you are trying to log in on
 has a password, otherwise it will wait a long time and deny authentication</p>
-</section>
-<section id="notes">
+</div>
+<div class="section" id="notes">
 <h3>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h3>
 <p><strong>Note 1</strong>: Restarting services like <code class="docutils literal notranslate"><span class="pre">sshd</span></code> or network routing/resolving might
 not be enough, reboot after configuration to ensure taking effect</p>
@@ -142,16 +150,16 @@ not be enough, reboot after configuration to ensure taking effect</p>
 is unknown, but is known that restarting networking by executing
 <code class="docutils literal notranslate"><span class="pre">/etc/rc.d/netif</span> <span class="pre">restart</span></code> in greater FreeBSD version temporarily fixes
 the issue for the lifetime of the machine session</p>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="index.html" class="btn btn-neutral float-left" title="Installing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="Libraries.html" class="btn btn-neutral float-right" title="Installing Libraries" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Settings.html" class="btn btn-neutral float-right" title="Environment Settings" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

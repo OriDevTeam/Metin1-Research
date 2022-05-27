@@ -2,13 +2,14 @@ Installing
 ===========
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Installing
-   :name: sec-metin1-server-installing
+..  toctree::
+    :hidden:
+    :maxdepth: 1
+    :caption: Installing
+    :name: toc-metin1-server-installing
 
-   FreeBSD
-   Libraries
-   Settings
+    FreeBSD
+    Libraries
+    Settings
 
 

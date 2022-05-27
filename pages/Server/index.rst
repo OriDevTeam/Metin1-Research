@@ -1,14 +1,14 @@
-Server Information
-====================
+Server
+=======
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Metin1
-   :name: sec-metin1-server
+..  toctree::
+    :hidden:
+    :maxdepth: 1
+    :caption: Metin1
+    :name: toc-metin1-server
 
-   Installing/index
-   Tree/index
-   Formats/index
+    Content/index
+    Installing/index
 
 
 The research was done mainly in FreeBSD 5, and later attempts

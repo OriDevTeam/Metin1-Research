@@ -1,4 +1,4 @@
-# Account Server Tree
+# Account Server Core Tree
 The core binary of this is called `account_server`, which
 serves account data for other cores
 
@@ -13,7 +13,9 @@ serves account data for other cores
    - mirror: http://ip.ncloud24.com/app/source_compile/mysql/mysql-4.0.26.tar.gz
 
 
-## Required (loaded in this order)
+## Directory Tree
+
+### Required (loaded in order)
  - CONFIG - _Unique_ (not confirmed yet)
  - iplist - _Shared_ (not confirmed yet)
  - slangs.mtx - _Shared_ (not confirmed yet)
